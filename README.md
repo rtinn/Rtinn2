@@ -1,5 +1,5 @@
 
-# [<img src="readme-assets/logo.png"> React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Rtinn
+# [<img src="readme-assets/logo.png"> Rtinn-Portfolio](https://rtinn.netlify.app/) by Rtinn
 
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
