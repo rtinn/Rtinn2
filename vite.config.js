@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Rtinn2/',
+  base: '/', // ← ici on change
   plugins: [react()],
   css: {
     preprocessorOptions: {
@@ -13,3 +13,4 @@ export default defineConfig({
     },
   },
 })
+
