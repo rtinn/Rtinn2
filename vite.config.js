@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/',
+  base: '/',
   plugins: [react()],
   css: {
     preprocessorOptions: {
@@ -12,5 +12,7 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    chunkSizeWarningLimit: 1000 // Garder cette option pour ignorer les avertissements de taille
+  }
 })
-
