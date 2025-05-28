@@ -1,5 +1,5 @@
 import "/src/styles/app.scss"
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, Suspense } from 'react' // Ajout de Suspense
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useData } from "/src/providers/DataProvider.jsx"
 import Portfolio from "/src/components/Portfolio.jsx"
@@ -11,7 +11,8 @@ import GalleryModal from "/src/components/modals/GalleryModal.jsx"
 import Notifications from "/src/components/feedbacks/Notifications.jsx"
 import ConfirmationWindow from "/src/components/modals/ConfirmationWindow.jsx"
 import { useFeedbacks } from "/src/providers/FeedbacksProvider.jsx"
-import Counter from './components/Counter';
+// Remplacement de l'import statique par une importation lazy
+const Counter = React.lazy(() => import('./Counter'));
 
 function App() {
     const { listImagesForCache } = useData()
@@ -25,15 +26,21 @@ function App() {
     }, []);
 
     return (
-        <div className={`app-wrapper`}>
-            <AppFeedbacks />
-            <ImageCache urls={imageList} />
-            <Portfolio />
-            <Routes> {/* Assurez-vous que Routes est bien défini ici */}
-                <Route path="/" element={<Portfolio />} />
-                <Route path="/compteur" element={<Counter />} />
-            </Routes>
-        </div>
+        <BrowserRouter>
+            <div className={`app-wrapper`}>
+                <AppFeedbacks />
+                <ImageCache urls={imageList} />
+                <Portfolio />
+                <Routes>
+                    <Route path="/" element={<Portfolio />} />
+                    <Route path="/compteur" element={
+                        <Suspense fallback={<div>Chargement du compteur...</div>}>
+                            <Counter />
+                        </Suspense>
+                    } />
+                </Routes>
+            </div>
+        </BrowserRouter>
     )
 }
 
