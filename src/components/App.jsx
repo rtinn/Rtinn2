@@ -11,7 +11,7 @@ import GalleryModal from "/src/components/modals/GalleryModal.jsx"
 import Notifications from "/src/components/feedbacks/Notifications.jsx"
 import ConfirmationWindow from "/src/components/modals/ConfirmationWindow.jsx"
 import { useFeedbacks } from "/src/providers/FeedbacksProvider.jsx"
-import Counter from './components/Counter'; // Ajoutez cette importation
+import Counter from './components/Counter';
 
 function App() {
     const { listImagesForCache } = useData()
