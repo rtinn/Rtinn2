@@ -101,148 +101,16 @@
                     },
                     "locales": {
                         "en": {"text": "<p>Passionate about web technologies and IT,I am a web developer with solid experience in designing high-performance applications and managing IT systems.Autonomous,meticulous,and highly motivated,Iam looking to join a dynamic company where I can apply my technical skills and analytical mindset to innovative and evolving projects.Constantly staying up to date with the latest technologies,I am fully committed to delivering reliable solutions tailored to userneeds and marketdemands.</p><p>I look forward to collaborating <b>with you!</b>"},
-                        "es": {"text": "<p>Soy un desarrollador de PHP con <b>más de una década</b> de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
-                        "fr": {"text": "<p>Passionné par les technologies du web et l'informatique, je suis un développeur web avec une solide expérience dans la conception d'applications performantes et la gestion de l'informatique. .Autonome, méticuleux et très motivé, je cherche à rejoindre une entreprise dynamique où je pourrai mettre à profit mes compétences.Je cherche à rejoindre une entreprise dynamique où je peux appliquer mes compétences techniques et mon esprit d'analyse à des projets novateurs.Je cherche à rejoindre une entreprise dynamique où je peux mettre à profit mes compétences techniques et mon esprit d'analyse dans des projets innovants et évolutifs.constamment à jour avec les technologies les plus récentes, je m'engage pleinement à fournir des solutions fiables à de nombreux clients. Je m'engage pleinement à fournir des solutions fiables aux clients qui répondent à leurs besoins et aux exigences du marché.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
-                        "ko": {"text": "<p>저는 백엔드 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 <b>10년 이상의</b> 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
+                        "es": {"text": "<p>Desarrollador web apasionado por las tecnologías y la informática, cuento con una sólida experiencia en el diseño de aplicaciones de alto rendimiento. Autónomo, meticuloso y muy motivado, busco integrarme en una empresa dinámica donde pueda aplicar mis habilidades técnicas y mi capacidad de análisis en proyectos innovadores. Siempre al día con las últimas tecnologías, me comprometo a ofrecer soluciones fiables y adaptadas a las necesidades de los clientes.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
+                        "fr": {"text": "<p>Développeur web passionné par les technologies et l'informatique, je possède une solide expérience dans la conception d’applications performantes. Autonome, rigoureux et motivé, je cherche à intégrer une entreprise dynamique pour mettre à profit mes compétences techniques et mon esprit d’analyse dans des projets innovants. Toujours à jour avec les dernières technologies, je m’engage à fournir des solutions fiables et adaptées aux besoins des clients.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"}
+                       
                     }
                 }
             ]
         },
 
-        {
-            "id": "testimonials",
-            "component": "ArticleTestimonials",
-            "config": {},
-            "locales": {
-                "en": {"title": "Client **testimonials**"},
-                "es": {"title": "Testimonios de **clientes**"},
-                "fr": {"title": "Témoignages de **clients**"},
-                "ko": {"title": "**고객** 추천사"}
-            },
-
-            "items": [
-                {
-                    "value": "Anita Bath",
-                    "links": [
-                        {"href": "https://linkedin.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-1.png",
-                        "fa": "fa-solid fa-user",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "CEO at <b>SalesForce</b>",
-                            "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
-                        },
-                        "es": {
-                            "info": "CEO en <b>SalesForce</b>",
-                            "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
-                        },
-                        "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
-                            "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        },
-                        "ko": {
-                            "info": "세일즈포스  CEO",
-                            "text": "Mark와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
-                        }
-                    }
-                },
-
-                {
-                    "value": "Lou Natic",
-                    "links": [
-                        {"href": "https://github.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-3.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Lead Developer at <b>GitHub</b>",
-                            "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
-                        },
-                        "es": {
-                            "info": "Desarrollador Principal en <b>GitHub </b>",
-                            "text": "Tener a Mark en nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
-                        },
-                        "fr": {
-                            "info": "Développeur Principal chez <b>GitHub </b>",
-                            "text": "Avoir Mark dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
-                        },
-                        "ko": {
-                            "info": "<b>GitHub</b> 수석 개발자",
-                            "text": "우리 팀에 Mark가 있다는 것은 귀중한 자산이었습니다. 그의 깊은 프로그래밍 통찰력과 멘토링은 우리의 프로젝트를 높이고 모든 도전에 자신감과 창의성으로 대응할 수 있게 해주었습니다."
-                        }
-                    }
-                },
-
-                {
-                    "value": "Paige Turner",
-                    "links": [
-                        {"href": null}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-2.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Managing Director at <b>Dingga</b>",
-                            "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
-                        },
-                        "es": {
-                            "info": "Directora General en <b>Dingga</b>",
-                            "text": "Colaborar con Mark fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
-                        },
-                        "fr": {
-                            "info": "Directrice Générale chez <b>Dingga</b>",
-                            "text": "Collaborer avec Mark a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
-                        },
-                        "ko": {
-                            "info": "딩가 전무이사",
-                            "text": "Mark와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
-                        }
-                    }
-                },
-
-                {
-                    "value": "Chris P. Bacon",
-                    "links": [
-                        {"href": "https://dribbble.com"}
-                    ],
-                    "icon": {
-                        "img": "images/pictures/person-4.png",
-                        "fa": null,
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "info": "Creative Director at <b>Dribbble</b>",
-                            "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
-                        },
-                        "es": {
-                            "info": "Directora Creativa en <b>Dribbble</b>",
-                            "text": "La atención al detalle de Mark y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
-                        },
-                        "fr": {
-                            "info": "Directrice Créative chez <b>Dribbble</b>",
-                            "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
-                        },
-                        "ko": {
-                            "info": "<b>Dribbble</b> 크리에이티브 디렉터",
-                            "text": "Mark의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
-                        }
-                    }
-                }
-            ]
-        },
-
+       
+        
         {
             "id": "interests",
             "component": "ArticleGrid",
