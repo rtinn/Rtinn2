@@ -474,6 +474,35 @@
             },
 
             "items": [
+
+
+                {
+                    "icon": {
+                        "img": "images/flags/mg.png",
+                        "fa": null,
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "value": null,
+                    "dates": { "start": null },
+                    "locales": {
+                        "en": {
+                            "title": "Malagasy",
+                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
+                            "tags": ["Intermediate"]
+                        },
+                        "es": {
+                            "title": "Malagasy",
+                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
+                            "tags": ["Intermedio"]
+                        },
+                        "fr": {
+                            "title": "Malagasy",
+                            "info": "Langue Maternelle.",
+                            "tags": ["Langue Maternelle"]
+                        }
+                    }
+                },
+
                 {
                     "icon": {
                         "img": "images/flags/en.png",
@@ -534,70 +563,6 @@
                             "title": "프랑스어",
                             "info": "구어 및 문어에 유창하며, 전문적인 소통에 자신감이 있음.",
                             "tags": ["유창"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/vn.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Vietnamese",
-                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
-                            "tags": ["Intermediate"]
-                        },
-                        "es": {
-                            "title": "Vietnamita",
-                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-                            "tags": ["Intermedio"]
-                        },
-                        "fr": {
-                            "title": "Vietnamien",
-                            "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
-                            "tags": ["Intermédiaire"]
-                        },
-                        "ko": {
-                            "title": "베트남어",
-                            "info": "중간 수준의 베트남어 실력; 대화 가능 및 글을 이해할 수 있음.",
-                            "tags": ["중급"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/ko.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Korean",
-                            "info": "Basic understanding of Korean; learning and improving.",
-                            "tags": ["Basic"]
-                        },
-                        "es": {
-                            "title": "Coreano",
-                            "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
-                        },
-                        "fr": {
-                            "title": "Coréen",
-                            "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
-                        },
-                        "ko": {
-                            "title": "한국어",
-                            "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "tags": ["기초"]
                         }
                     }
                 }
