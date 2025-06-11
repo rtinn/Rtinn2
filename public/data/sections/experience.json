@@ -109,7 +109,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/place-1.png",
+                        "img": "images/pictures/place-5.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -120,27 +120,27 @@
                     "locales": {
                         "en": {
                             "title": "**Backend** Engineer",
-                            "info": "Adobe Inc.",
+                            "info": "Digital Island.",
                             "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "tags": ["Java", "AWS", "REST", "Docker"]
+                            "tags": ["Java", "AWS", "REST", "PHP","React"]
                         },
                         "es": {
                             "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
+                            "info": "Digital Island.",
                             "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
-                            "tags": null
+                            "tags": ["Java", "AWS", "REST", "PHP","React"]
                         },
                         "fr": {
-                            "title": "Ingénieur **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
-                            "tags": null
+                            "title": "Développement et Maintenance **de Sites Web**",
+                            "info": "Digital Island.",
+                            "text": "<p>Au sein de l’entreprise, j’ai assuré la conception technique et graphique de sites web, leur développement complet ainsi que leur maintenance. Mon rôle consistait à créer des solutions web performantes, modernes et adaptées aux besoins des utilisateurs, tout en garantissant leur mise à jour régulière et leur bon fonctionnement:</p> <ul><li>Conception et modélisation de sites web selon les besoins et objectifs définis.</li><li>Développement de sites web dynamiques et responsives.</li><li>Maintenance corrective et évolutive des sites existants.</li><li>Optimisation des performances et de la sécurité des plateformes.</li></ul></p>",
+                             "tags": ["Java", "AWS", "REST", "PHP","React"]
                         },
                         "ko": {
                             "title": "**백엔드** 엔지니어",
-                            "info": "어도비 주식회사",
+                            "info": "Digital Island",
                             "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
-                            "tags": null
+                            "tags": ["Java", "AWS", "REST", "PHP","React"]
                         }
                     }
                 },
@@ -156,16 +156,16 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                            "title": "IT & **Web and Internal Software Developer** ",
+                            "info": "Telesourcia.",
+                            "text": "<p>In this versatile role, I play a key part in the development and maintenance of the company’s websites and internal applications, providing tailored solutions to meet team needs and optimize business processes. Alongside development tasks, I also manage the IT infrastructure and provide technical support for the network and systems:</p> <ul><li>Design, development, and maintenance of websites (showcase, intranet) and internal business tools.</li><li>Continuous improvement and updates of applications to meet specific department needs.</li><li>Participation in technical decisions and the evolution of web technologies used.</li><li>Management and maintenance of the IT asset inventory (installation, troubleshooting, user support).</li><li>Assistance with network administration (access management, security, backups).</li><li>Technology watch to ensure the performance, reliability, and security of developed solutions.</li> </ul></p>",
+                            "tags": ["PHP", "PostgreSQL", "TCP/IP", "Firewall", "Mikrotik"]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                          "title": "IT & **Web and Internal Software Developer** ",
+                            "info": "Telesourcia.",
+                            "text": "<p>In this versatile role, I play a key part in the development and maintenance of the company’s websites and internal applications, providing tailored solutions to meet team needs and optimize business processes. Alongside development tasks, I also manage the IT infrastructure and provide technical support for the network and systems:</p> <ul><li>Design, development, and maintenance of websites (showcase, intranet) and internal business tools.</li><li>Continuous improvement and updates of applications to meet specific department needs.</li><li>Participation in technical decisions and the evolution of web technologies used.</li><li>Management and maintenance of the IT asset inventory (installation, troubleshooting, user support).</li><li>Assistance with network administration (access management, security, backups).</li><li>Technology watch to ensure the performance, reliability, and security of developed solutions.</li> </ul></p>",
+                            "tags": ["PHP", "PostgreSQL", "TCP/IP", "Firewall", "Mikrotik"]
                         },
                         "fr": {
                             "title": "IT & Développeur ** Web et Logiciels Internes**",
@@ -174,11 +174,12 @@
                             "tags": ["PHP", "PostgreSQL", "TCP/IP", "Firewall", "Mikrotik"]
                         },
                         "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                            "title": "IT & **Web and Internal Software Developer** ",
+                            "info": "Telesourcia.",
+                            "text": "<p>In this versatile role, I play a key part in the development and maintenance of the company’s websites and internal applications, providing tailored solutions to meet team needs and optimize business processes. Alongside development tasks, I also manage the IT infrastructure and provide technical support for the network and systems:</p> <ul><li>Design, development, and maintenance of websites (showcase, intranet) and internal business tools.</li><li>Continuous improvement and updates of applications to meet specific department needs.</li><li>Participation in technical decisions and the evolution of web technologies used.</li><li>Management and maintenance of the IT asset inventory (installation, troubleshooting, user support).</li><li>Assistance with network administration (access management, security, backups).</li><li>Technology watch to ensure the performance, reliability, and security of developed solutions.</li> </ul></p>",
+                            "tags":["PHP", "PostgreSQL", "TCP/IP", "Firewall", "Mikrotik"]
                         }
+                        
                     }
                 }
             ]
