@@ -146,8 +146,8 @@
                 },
                 {
                     "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-apple",
+                        "img": "images/pictures/place-1.png",
+                        "fa": "",
                         "faColors": {"bg": "#111", "fill": "#EEE"}
                     },
                     "dates": {
@@ -168,10 +168,10 @@
                             "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
                         },
                         "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                            "title": "IT & Développeur ** Web et Logiciels Internes**",
+                            "info": "Telesourcia.",
+                            "text": "<p> En occupant ce poste polyvalent, je joue un rôle clé dans le développement et la maintenance des sites web et des applications internes de l’entreprise, en veillant à proposer des solutions adaptées aux besoins des équipes et à l’optimisation des processus. En parallèle, je participe à la gestion du parc informatique et j’assure un soutien technique au niveau du réseau et des infrastructures:</p> <ul><li>Conception, développement et mise à jour de sites web (vitrine, intranet) et d’outils métiers internes.</li><li>Maintenance et amélioration continue des applications pour répondre aux besoins spécifiques des services.</li><li>Participation aux choix techniques et à l’évolution des technologies web utilisées.</li><li>Gestion et suivi du parc informatique (installation, maintenance, support utilisateur).</li><li>Assistance à l’administration réseau (gestion des accès, sécurité, sauvegardes).</li> <li>Veille technologique pour garantir la performance et la sécurité des solutions développées.</li></ul></p>",
+                            "tags": ["PHP", "PostgreSQL", "TCP/IP", "Firewall", "Mikrotik"]
                         },
                         "ko": {
                             "title": "**수석 백엔드** 개발자",
